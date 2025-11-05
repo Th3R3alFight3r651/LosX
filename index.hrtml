@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LosX – Dein Glücksmoment</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #0a2540, #000);
+      color: white;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      width: 180px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #FFD700;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      color: #d0d0d0;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 24px;
+      background: #FFD700;
+      color: #0a2540;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    a.button:hover {
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Füge dein Logo hier ein -->
+  <img src="logo.png" alt="LosX Logo" />
+  <h1>Willkommen bei LosX</h1>
+  <p>Der moderne Weg zum Glück! Kaufe Lose, nimm teil an exklusiven Gewinnspielen und erlebe echte Gewinnmomente.</p>
+  <a href="#" class="button">Jetzt Mitmachen</a>
+</body>
+</html>
 
